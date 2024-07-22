@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7472C6192C4BA07F001AE964 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472C6182C4BA07F001AE964 /* ImageModel.swift */; };
+		7472C61B2C4BA208001AE964 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472C61A2C4BA208001AE964 /* NetworkManager.swift */; };
+		7472C61D2C4BA427001AE964 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472C61C2C4BA427001AE964 /* APIEndpoints.swift */; };
+		7472C61F2C4BA501001AE964 /* ImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472C61E2C4BA501001AE964 /* ImagesViewModel.swift */; };
+		7472C6272C4BAC1A001AE964 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7472C6252C4BAC1A001AE964 /* ImageTableViewCell.swift */; };
+		7472C6282C4BAC1A001AE964 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7472C6262C4BAC1A001AE964 /* ImageTableViewCell.xib */; };
+		747D75F72C4BB59F00E665EC /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747D75F62C4BB59F00E665EC /* UIImage+Extension.swift */; };
+		74AA9FAA2C4B9658007128B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA9FA92C4B9658007128B2 /* AppDelegate.swift */; };
+		74AA9FAC2C4B9658007128B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA9FAB2C4B9658007128B2 /* SceneDelegate.swift */; };
+		74AA9FAE2C4B9658007128B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA9FAD2C4B9658007128B2 /* ViewController.swift */; };
+		74AA9FB12C4B9658007128B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 74AA9FB02C4B9658007128B2 /* Base */; };
+		74AA9FB32C4B965B007128B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA9FB22C4B965B007128B2 /* Assets.xcassets */; };
+		74AA9FB62C4B965B007128B2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 74AA9FB52C4B965B007128B2 /* Base */; };
+		74D254272C4E8E530006429F /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D254262C4E8E530006429F /* ViewControllerTests.swift */; };
+		74D254292C4E9B2F0006429F /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D254282C4E9B2F0006429F /* ViewControllerUITests.swift */; };
+		74EF3BC32C4CC563004AE808 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF3BC22C4CC563004AE808 /* Utility.swift */; };
+		74EF3C182C4CCD50004AE808 /* PALOIT_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF3C172C4CCD50004AE808 /* PALOIT_TaskUITestsLaunchTests.swift */; };
+		74EF3C202C4CCE06004AE808 /* MockImagesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF3C1F2C4CCE06004AE808 /* MockImagesViewModelTests.swift */; };
+		74EF3C222C4CCF2D004AE808 /* MockImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EF3C212C4CCF2D004AE808 /* MockImagesViewModel.swift */; };
+		D1830CA1D565E9D06922E888 /* Pods_PALOIT_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C24F908989C2B017A46592 /* Pods_PALOIT_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74EF3C0A2C4CCD3D004AE808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AA9F9E2C4B9658007128B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AA9FA52C4B9658007128B2;
+			remoteInfo = "PALOIT-Task";
+		};
+		74EF3C192C4CCD50004AE808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74AA9F9E2C4B9658007128B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74AA9FA52C4B9658007128B2;
+			remoteInfo = "PALOIT-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C24F908989C2B017A46592 /* Pods_PALOIT_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PALOIT_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFBD66FC3C52427A28C3D44 /* Pods-PALOIT-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PALOIT-Task.release.xcconfig"; path = "Target Support Files/Pods-PALOIT-Task/Pods-PALOIT-Task.release.xcconfig"; sourceTree = "<group>"; };
+		7472C6182C4BA07F001AE964 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		7472C61A2C4BA208001AE964 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7472C61C2C4BA427001AE964 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		7472C61E2C4BA501001AE964 /* ImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewModel.swift; sourceTree = "<group>"; };
+		7472C6252C4BAC1A001AE964 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		7472C6262C4BAC1A001AE964 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		747D75F62C4BB59F00E665EC /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		74AA9FA62C4B9658007128B2 /* PALOIT-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PALOIT-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74AA9FA92C4B9658007128B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74AA9FAB2C4B9658007128B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74AA9FAD2C4B9658007128B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74AA9FB02C4B9658007128B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74AA9FB22C4B965B007128B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74AA9FB52C4B965B007128B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74AA9FB72C4B965B007128B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D254262C4E8E530006429F /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		74D254282C4E9B2F0006429F /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
+		74EF3BC22C4CC563004AE808 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		74EF3C062C4CCD3D004AE808 /* PALOIT-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PALOIT-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EF3C132C4CCD50004AE808 /* PALOIT-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PALOIT-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74EF3C172C4CCD50004AE808 /* PALOIT_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PALOIT_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74EF3C1F2C4CCE06004AE808 /* MockImagesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImagesViewModelTests.swift; sourceTree = "<group>"; };
+		74EF3C212C4CCF2D004AE808 /* MockImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImagesViewModel.swift; sourceTree = "<group>"; };
+		C99B5AF872DA5A979DECC1A0 /* Pods-PALOIT-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PALOIT-Task.debug.xcconfig"; path = "Target Support Files/Pods-PALOIT-Task/Pods-PALOIT-Task.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74AA9FA32C4B9658007128B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1830CA1D565E9D06922E888 /* Pods_PALOIT_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EF3C032C4CCD3D004AE808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EF3C102C4CCD50004AE808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203A321427327FAE278B0517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C99B5AF872DA5A979DECC1A0 /* Pods-PALOIT-Task.debug.xcconfig */,
+				6EFBD66FC3C52427A28C3D44 /* Pods-PALOIT-Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7472C6172C4BA067001AE964 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				74AA9FAD2C4B9658007128B2 /* ViewController.swift */,
+				7472C6182C4BA07F001AE964 /* ImageModel.swift */,
+				7472C61E2C4BA501001AE964 /* ImagesViewModel.swift */,
+				7472C6242C4BA719001AE964 /* cell */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		7472C6242C4BA719001AE964 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				7472C6252C4BAC1A001AE964 /* ImageTableViewCell.swift */,
+				7472C6262C4BAC1A001AE964 /* ImageTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		74AA9F9D2C4B9658007128B2 = {
+			isa = PBXGroup;
+			children = (
+				74AA9FA82C4B9658007128B2 /* PALOIT-Task */,
+				74EF3C072C4CCD3D004AE808 /* PALOIT-TaskTests */,
+				74EF3C142C4CCD50004AE808 /* PALOIT-TaskUITests */,
+				74AA9FA72C4B9658007128B2 /* Products */,
+				203A321427327FAE278B0517 /* Pods */,
+				E385A5516DEBD5043971DD6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74AA9FA72C4B9658007128B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74AA9FA62C4B9658007128B2 /* PALOIT-Task.app */,
+				74EF3C062C4CCD3D004AE808 /* PALOIT-TaskTests.xctest */,
+				74EF3C132C4CCD50004AE808 /* PALOIT-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74AA9FA82C4B9658007128B2 /* PALOIT-Task */ = {
+			isa = PBXGroup;
+			children = (
+				74AA9FA92C4B9658007128B2 /* AppDelegate.swift */,
+				74AA9FAB2C4B9658007128B2 /* SceneDelegate.swift */,
+				7472C6172C4BA067001AE964 /* Module */,
+				7472C61A2C4BA208001AE964 /* NetworkManager.swift */,
+				7472C61C2C4BA427001AE964 /* APIEndpoints.swift */,
+				74AA9FAF2C4B9658007128B2 /* Main.storyboard */,
+				74AA9FB22C4B965B007128B2 /* Assets.xcassets */,
+				74AA9FB42C4B965B007128B2 /* LaunchScreen.storyboard */,
+				74AA9FB72C4B965B007128B2 /* Info.plist */,
+				747D75F62C4BB59F00E665EC /* UIImage+Extension.swift */,
+				74EF3BC22C4CC563004AE808 /* Utility.swift */,
+			);
+			path = "PALOIT-Task";
+			sourceTree = "<group>";
+		};
+		74EF3C072C4CCD3D004AE808 /* PALOIT-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				74EF3C1E2C4CCDED004AE808 /* Module */,
+			);
+			path = "PALOIT-TaskTests";
+			sourceTree = "<group>";
+		};
+		74EF3C142C4CCD50004AE808 /* PALOIT-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74EF3C172C4CCD50004AE808 /* PALOIT_TaskUITestsLaunchTests.swift */,
+				74D254282C4E9B2F0006429F /* ViewControllerUITests.swift */,
+			);
+			path = "PALOIT-TaskUITests";
+			sourceTree = "<group>";
+		};
+		74EF3C1E2C4CCDED004AE808 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				74EF3C1F2C4CCE06004AE808 /* MockImagesViewModelTests.swift */,
+				74EF3C212C4CCF2D004AE808 /* MockImagesViewModel.swift */,
+				74D254262C4E8E530006429F /* ViewControllerTests.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E385A5516DEBD5043971DD6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C24F908989C2B017A46592 /* Pods_PALOIT_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74AA9FA52C4B9658007128B2 /* PALOIT-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AA9FBA2C4B965B007128B2 /* Build configuration list for PBXNativeTarget "PALOIT-Task" */;
+			buildPhases = (
+				1971B3A38B1B62A3F845BC0A /* [CP] Check Pods Manifest.lock */,
+				74AA9FA22C4B9658007128B2 /* Sources */,
+				74AA9FA32C4B9658007128B2 /* Frameworks */,
+				74AA9FA42C4B9658007128B2 /* Resources */,
+				CBF9E1D832643A68A47B75E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PALOIT-Task";
+			productName = "PALOIT-Task";
+			productReference = 74AA9FA62C4B9658007128B2 /* PALOIT-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74EF3C052C4CCD3D004AE808 /* PALOIT-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EF3C0C2C4CCD3D004AE808 /* Build configuration list for PBXNativeTarget "PALOIT-TaskTests" */;
+			buildPhases = (
+				74EF3C022C4CCD3D004AE808 /* Sources */,
+				74EF3C032C4CCD3D004AE808 /* Frameworks */,
+				74EF3C042C4CCD3D004AE808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EF3C0B2C4CCD3D004AE808 /* PBXTargetDependency */,
+			);
+			name = "PALOIT-TaskTests";
+			productName = "PALOIT-TaskTests";
+			productReference = 74EF3C062C4CCD3D004AE808 /* PALOIT-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74EF3C122C4CCD50004AE808 /* PALOIT-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74EF3C1B2C4CCD50004AE808 /* Build configuration list for PBXNativeTarget "PALOIT-TaskUITests" */;
+			buildPhases = (
+				74EF3C0F2C4CCD50004AE808 /* Sources */,
+				74EF3C102C4CCD50004AE808 /* Frameworks */,
+				74EF3C112C4CCD50004AE808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EF3C1A2C4CCD50004AE808 /* PBXTargetDependency */,
+			);
+			name = "PALOIT-TaskUITests";
+			productName = "PALOIT-TaskUITests";
+			productReference = 74EF3C132C4CCD50004AE808 /* PALOIT-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74AA9F9E2C4B9658007128B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					74AA9FA52C4B9658007128B2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					74EF3C052C4CCD3D004AE808 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 74AA9FA52C4B9658007128B2;
+					};
+					74EF3C122C4CCD50004AE808 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 74AA9FA52C4B9658007128B2;
+					};
+				};
+			};
+			buildConfigurationList = 74AA9FA12C4B9658007128B2 /* Build configuration list for PBXProject "PALOIT-Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74AA9F9D2C4B9658007128B2;
+			productRefGroup = 74AA9FA72C4B9658007128B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74AA9FA52C4B9658007128B2 /* PALOIT-Task */,
+				74EF3C052C4CCD3D004AE808 /* PALOIT-TaskTests */,
+				74EF3C122C4CCD50004AE808 /* PALOIT-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74AA9FA42C4B9658007128B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AA9FB32C4B965B007128B2 /* Assets.xcassets in Resources */,
+				7472C6282C4BAC1A001AE964 /* ImageTableViewCell.xib in Resources */,
+				74AA9FB62C4B965B007128B2 /* Base in Resources */,
+				74AA9FB12C4B9658007128B2 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EF3C042C4CCD3D004AE808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EF3C112C4CCD50004AE808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1971B3A38B1B62A3F845BC0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PALOIT-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF9E1D832643A68A47B75E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PALOIT-Task/Pods-PALOIT-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PALOIT-Task/Pods-PALOIT-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PALOIT-Task/Pods-PALOIT-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74AA9FA22C4B9658007128B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EF3BC32C4CC563004AE808 /* Utility.swift in Sources */,
+				74AA9FAE2C4B9658007128B2 /* ViewController.swift in Sources */,
+				7472C6272C4BAC1A001AE964 /* ImageTableViewCell.swift in Sources */,
+				74AA9FAA2C4B9658007128B2 /* AppDelegate.swift in Sources */,
+				747D75F72C4BB59F00E665EC /* UIImage+Extension.swift in Sources */,
+				7472C61B2C4BA208001AE964 /* NetworkManager.swift in Sources */,
+				7472C61D2C4BA427001AE964 /* APIEndpoints.swift in Sources */,
+				74AA9FAC2C4B9658007128B2 /* SceneDelegate.swift in Sources */,
+				7472C6192C4BA07F001AE964 /* ImageModel.swift in Sources */,
+				7472C61F2C4BA501001AE964 /* ImagesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EF3C022C4CCD3D004AE808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EF3C202C4CCE06004AE808 /* MockImagesViewModelTests.swift in Sources */,
+				74D254272C4E8E530006429F /* ViewControllerTests.swift in Sources */,
+				74EF3C222C4CCF2D004AE808 /* MockImagesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EF3C0F2C4CCD50004AE808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74EF3C182C4CCD50004AE808 /* PALOIT_TaskUITestsLaunchTests.swift in Sources */,
+				74D254292C4E9B2F0006429F /* ViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74EF3C0B2C4CCD3D004AE808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AA9FA52C4B9658007128B2 /* PALOIT-Task */;
+			targetProxy = 74EF3C0A2C4CCD3D004AE808 /* PBXContainerItemProxy */;
+		};
+		74EF3C1A2C4CCD50004AE808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74AA9FA52C4B9658007128B2 /* PALOIT-Task */;
+			targetProxy = 74EF3C192C4CCD50004AE808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74AA9FAF2C4B9658007128B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AA9FB02C4B9658007128B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74AA9FB42C4B965B007128B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74AA9FB52C4B965B007128B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74AA9FB82C4B965B007128B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74AA9FB92C4B965B007128B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AA9FBB2C4B965B007128B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99B5AF872DA5A979DECC1A0 /* Pods-PALOIT-Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PALOIT-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.PALOIT-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74AA9FBC2C4B965B007128B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFBD66FC3C52427A28C3D44 /* Pods-PALOIT-Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PALOIT-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.PALOIT-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74EF3C0D2C4CCD3D004AE808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.PALOIT-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PALOIT-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PALOIT-Task";
+			};
+			name = Debug;
+		};
+		74EF3C0E2C4CCD3D004AE808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.PALOIT-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PALOIT-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PALOIT-Task";
+			};
+			name = Release;
+		};
+		74EF3C1C2C4CCD50004AE808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.PALOIT-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PALOIT-Task";
+			};
+			name = Debug;
+		};
+		74EF3C1D2C4CCD50004AE808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "my.PALOIT-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PALOIT-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74AA9FA12C4B9658007128B2 /* Build configuration list for PBXProject "PALOIT-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AA9FB82C4B965B007128B2 /* Debug */,
+				74AA9FB92C4B965B007128B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AA9FBA2C4B965B007128B2 /* Build configuration list for PBXNativeTarget "PALOIT-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AA9FBB2C4B965B007128B2 /* Debug */,
+				74AA9FBC2C4B965B007128B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EF3C0C2C4CCD3D004AE808 /* Build configuration list for PBXNativeTarget "PALOIT-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EF3C0D2C4CCD3D004AE808 /* Debug */,
+				74EF3C0E2C4CCD3D004AE808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74EF3C1B2C4CCD50004AE808 /* Build configuration list for PBXNativeTarget "PALOIT-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74EF3C1C2C4CCD50004AE808 /* Debug */,
+				74EF3C1D2C4CCD50004AE808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74AA9F9E2C4B9658007128B2 /* Project object */;
+}
